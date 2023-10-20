@@ -1,0 +1,79 @@
+/* Set the background color */
+body {
+  background-color: #282c34;
+}
+
+/* Set the text color */
+body, input, button, label {
+  color: #abb2bf;
+}
+
+/* Set the input field styles */
+input[type="text"], input[type="date"], textarea {
+  background-color: #3e4451;
+  border: none;
+  color: #dcdfe4;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* Set the button styles */
+button[type="submit"] {
+  background-color: #56b6c2;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+/* Set the button hover styles */
+button[type="submit"]:hover {
+  background-color: #3e4451;
+}
+
+/* Set the purchase summary styles */
+.purchase-summary {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #56b6c2;
+  border-radius: 4px;
+  background-color: #3e4451;
+}
+
+.purchase-summary h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #abb2bf;
+}
+
+.purchase-summary table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.purchase-summary th, .purchase-summary td {
+  text-align: left;
+  padding: 8px;
+}
+
+.purchase-summary th {
+  background-color: #3e4451;
+  color: #abb2bf;
+}
+
+.purchase-summary tr:nth-child(even) {
+  background-color: #282c34;
+}
+
+.purchase-summary tr:hover {
+  background-color: #3e4451;
+}
+
+.purchase-summary .total {
+  font-weight: bold;
+  color: #abb2bf;
+}

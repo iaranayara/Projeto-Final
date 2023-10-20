@@ -1,0 +1,53 @@
+/* Set the background color */
+body {
+  background-color: #282c34;
+}
+
+/* Set the text color */
+body, input, button {
+  color: #abb2bf;
+}
+
+/* Set the table styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #abb2bf;
+}
+
+th {
+  background-color: #3e4451;
+}
+
+/* Set the input field styles */
+input[type="number"] {
+  background-color: #3e4451;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 16px;
+  color: #abb2bf;
+}
+
+/* Set the button styles */
+button[type="submit"] {
+  background-color: #56b6c2;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+/* Set the button hover styles */
+button[type="submit"]:hover {
+  background-color: #3e4451;
+}
